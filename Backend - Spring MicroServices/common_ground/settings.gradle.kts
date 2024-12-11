@@ -3,3 +3,4 @@ plugins {
 }
 rootProject.name = "common_ground"
 include("user-service")
+include("discovery-server")

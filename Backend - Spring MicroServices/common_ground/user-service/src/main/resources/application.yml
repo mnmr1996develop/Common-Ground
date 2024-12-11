@@ -7,7 +7,13 @@ spring:
         jwt:
           issuer-uri : http://localhost:7080/realms/common-ground
 server:
-  port: 6700
+  port: 0
+
+eureka:
+  client:
+    fetch-registry: true
+    serviceUrl:
+      defaultZone: http://localhost:8888/eureka
 
 app:
   keycloak:
