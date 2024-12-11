@@ -1,0 +1,18 @@
+spring:
+  application:
+    name : user-service
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri : http://localhost:7080/realms/common-ground
+server:
+  port: 6700
+
+app:
+  keycloak:
+    admin:
+      clientId: common-ground-spring-id
+      clientSecret: UDWnGW0PQUQCyBSTzVs6uLJIT4XhmJG9
+    realm: common-ground
+    serverUrl: http://localhost:7080
