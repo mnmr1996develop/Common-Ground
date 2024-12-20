@@ -73,6 +73,8 @@ class UserServiceImpl(
         getUsersResource().delete(userId)
     }
 
+    override fun getAllUsers(): List<UserRepresentation> = getUsersResource().list()
+
     private fun getUsersResource(): UsersResource = keycloak.realm(realm).users()
 
     private fun formatLocalDateToString(date: LocalDate): String {

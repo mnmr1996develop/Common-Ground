@@ -9,4 +9,6 @@ interface UserService {
     fun getUserById(userId: String): UserRepresentation
 
     fun deleteUserById(userId: String)
+
+    fun getAllUsers(): List<UserRepresentation>
 }

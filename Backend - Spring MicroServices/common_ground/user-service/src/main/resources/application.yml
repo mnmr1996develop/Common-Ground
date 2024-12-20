@@ -1,24 +1,5 @@
 spring:
   application:
-    name : user-service
-  security:
-    oauth2:
-      resourceserver:
-        jwt:
-          issuer-uri : http://localhost:7080/realms/common-ground
-server:
-  port: 0
-
-eureka:
-  client:
-    fetch-registry: true
-    serviceUrl:
-      defaultZone: http://localhost:8888/eureka
-
-app:
-  keycloak:
-    admin:
-      clientId: common-ground-spring-id
-      clientSecret: UDWnGW0PQUQCyBSTzVs6uLJIT4XhmJG9
-    realm: common-ground
-    serverUrl: http://localhost:7080
+    name: user-service
+  config:
+    import: optional:configserver:http://localhost:8888
