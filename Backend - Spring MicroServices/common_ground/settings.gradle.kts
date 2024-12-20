@@ -4,3 +4,5 @@ plugins {
 rootProject.name = "common_ground"
 include("user-service")
 include("discovery-server")
+include("api-gateway")
+include("config-server")
