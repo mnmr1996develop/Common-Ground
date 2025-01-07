@@ -2,8 +2,9 @@ package com.michaelRichards.com.michael_richards.userservice.service.impl
 
 import com.michaelRichards.com.michael_richards.userservice.dto.NewUser
 import com.michaelRichards.com.michael_richards.userservice.exceptions.RegistrationExceptions
+import com.michaelRichards.com.michael_richards.userservice.exceptions.UserExceptions
 import org.keycloak.admin.client.Keycloak
-import com.michaelRichards.com.michael_richards.userservice.service.UserService
+import com.michaelRichards.com.michael_richards.userservice.service.AuthenticationService
 import org.keycloak.admin.client.resource.UsersResource
 import org.keycloak.representations.idm.CredentialRepresentation
 import org.keycloak.representations.idm.UserRepresentation
@@ -14,14 +15,14 @@ import java.time.LocalDate
 import java.time.format.DateTimeFormatter
 
 @Service
-class UserServiceImpl(
+class AuthenticationServiceImpl(
     private val keycloak: Keycloak
-): UserService {
+): AuthenticationService {
 
     @Value("\${app.keycloak.realm}")
     private lateinit var realm: String
 
-    private val logger = LoggerFactory.getLogger(UserServiceImpl::class.java)
+    private val logger = LoggerFactory.getLogger(AuthenticationServiceImpl::class.java)
 
     override fun registerUser(newUser: NewUser) {
 
@@ -74,6 +75,17 @@ class UserServiceImpl(
     }
 
     override fun getAllUsers(): List<UserRepresentation> = getUsersResource().list()
+
+    override fun getUserByUsername(username: String): UserRepresentation {
+        val userRep = getUsersResource().searchByUsername(username, true)
+        if (userRep.size == 1)
+            return userRep[0]
+        else
+            throw UserExceptions.UsernameNotFound(username)
+    }
+
+    override fun search(q: String): List<UserRepresentation>  = getUsersResource().search(q)
+
 
     private fun getUsersResource(): UsersResource = keycloak.realm(realm).users()
 
