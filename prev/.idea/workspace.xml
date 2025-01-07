@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a00fca3b-b98e-4379-ac6e-cd256aa0d212" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../Backend - Spring MicroServices/common_ground/api-gateway/src/main/kotlin/com/michaelrichards/apigateway/security/SecurityConfig.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend - Spring MicroServices/common_ground/api-gateway/src/main/kotlin/com/michaelrichards/apigateway/security/SecurityConfig.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend - Spring MicroServices/common_ground/user-service/src/main/kotlin/com/michael_richards/userservice/controller/UserController.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend - Spring MicroServices/common_ground/user-service/src/main/kotlin/com/michael_richards/userservice/controller/UserController.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend - Spring MicroServices/common_ground/user-service/src/main/kotlin/com/michael_richards/userservice/exceptions/RegistrationExceptions.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend - Spring MicroServices/common_ground/user-service/src/main/kotlin/com/michael_richards/userservice/exceptions/RegistrationExceptions.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend - Spring MicroServices/common_ground/user-service/src/main/kotlin/com/michael_richards/userservice/service/UserService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend - Spring MicroServices/common_ground/user-service/src/main/kotlin/com/michael_richards/userservice/service/AuthenticationService.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend - Spring MicroServices/common_ground/user-service/src/main/kotlin/com/michael_richards/userservice/service/impl/UserServiceImpl.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend - Spring MicroServices/common_ground/user-service/src/main/kotlin/com/michael_richards/userservice/service/impl/AuthenticationServiceImpl.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docker/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../docker/docker-compose.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docker/postgres_common_ground/base/1/pg_internal.init" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docker/postgres_common_ground/base/16384/16385" beforeDir="false" afterPath="$PROJECT_DIR$/../docker/postgres_common_ground/base/16384/16385" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docker/postgres_common_ground/base/16384/16484" beforeDir="false" afterPath="$PROJECT_DIR$/../docker/postgres_common_ground/base/16384/16484" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docker/postgres_common_ground/base/16384/16487" beforeDir="false" afterPath="$PROJECT_DIR$/../docker/postgres_common_ground/base/16384/16487" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docker/postgres_common_ground/base/16384/16493" beforeDir="false" afterPath="$PROJECT_DIR$/../docker/postgres_common_ground/base/16384/16493" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docker/postgres_common_ground/base/16384/16498" beforeDir="false" afterPath="$PROJECT_DIR$/../docker/postgres_common_ground/base/16384/16498" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docker/postgres_common_ground/base/16384/16519" beforeDir="false" afterPath="$PROJECT_DIR$/../docker/postgres_common_ground/base/16384/16519" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docker/postgres_common_ground/base/16384/16568" beforeDir="false" afterPath="$PROJECT_DIR$/../docker/postgres_common_ground/base/16384/16568" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docker/postgres_common_ground/base/16384/16576" beforeDir="false" afterPath="$PROJECT_DIR$/../docker/postgres_common_ground/base/16384/16576" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docker/postgres_common_ground/base/16384/16584" beforeDir="false" afterPath="$PROJECT_DIR$/../docker/postgres_common_ground/base/16384/16584" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docker/postgres_common_ground/base/16384/16756" beforeDir="false" afterPath="$PROJECT_DIR$/../docker/postgres_common_ground/base/16384/16756" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docker/postgres_common_ground/base/16384/16917" beforeDir="false" afterPath="$PROJECT_DIR$/../docker/postgres_common_ground/base/16384/16917" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docker/postgres_common_ground/base/16384/17153" beforeDir="false" afterPath="$PROJECT_DIR$/../docker/postgres_common_ground/base/16384/17153" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docker/postgres_common_ground/base/16384/17184" beforeDir="false" afterPath="$PROJECT_DIR$/../docker/postgres_common_ground/base/16384/17184" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docker/postgres_common_ground/base/16384/17189" beforeDir="false" afterPath="$PROJECT_DIR$/../docker/postgres_common_ground/base/16384/17189" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docker/postgres_common_ground/base/16384/17194" beforeDir="false" afterPath="$PROJECT_DIR$/../docker/postgres_common_ground/base/16384/17194" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docker/postgres_common_ground/base/16384/17343" beforeDir="false" afterPath="$PROJECT_DIR$/../docker/postgres_common_ground/base/16384/17343" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docker/postgres_common_ground/base/16384/17344" beforeDir="false" afterPath="$PROJECT_DIR$/../docker/postgres_common_ground/base/16384/17344" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docker/postgres_common_ground/base/16384/17349" beforeDir="false" afterPath="$PROJECT_DIR$/../docker/postgres_common_ground/base/16384/17349" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docker/postgres_common_ground/base/16384/17585" beforeDir="false" afterPath="$PROJECT_DIR$/../docker/postgres_common_ground/base/16384/17585" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docker/postgres_common_ground/base/16384/17737" beforeDir="false" afterPath="$PROJECT_DIR$/../docker/postgres_common_ground/base/16384/17737" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docker/postgres_common_ground/base/16384/17933" beforeDir="false" afterPath="$PROJECT_DIR$/../docker/postgres_common_ground/base/16384/17933" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docker/postgres_common_ground/base/16384/17936" beforeDir="false" afterPath="$PROJECT_DIR$/../docker/postgres_common_ground/base/16384/17936" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docker/postgres_common_ground/base/16384/17937" beforeDir="false" afterPath="$PROJECT_DIR$/../docker/postgres_common_ground/base/16384/17937" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docker/postgres_common_ground/base/16384/17961" beforeDir="false" afterPath="$PROJECT_DIR$/../docker/postgres_common_ground/base/16384/17961" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docker/postgres_common_ground/base/16384/17963" beforeDir="false" afterPath="$PROJECT_DIR$/../docker/postgres_common_ground/base/16384/17963" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docker/postgres_common_ground/base/16384/17968" beforeDir="false" afterPath="$PROJECT_DIR$/../docker/postgres_common_ground/base/16384/17968" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docker/postgres_common_ground/base/16384/17969" beforeDir="false" afterPath="$PROJECT_DIR$/../docker/postgres_common_ground/base/16384/17969" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docker/postgres_common_ground/base/16384/2619" beforeDir="false" afterPath="$PROJECT_DIR$/../docker/postgres_common_ground/base/16384/2619" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docker/postgres_common_ground/base/16384/pg_internal.init" beforeDir="false" afterPath="$PROJECT_DIR$/../docker/postgres_common_ground/base/16384/pg_internal.init" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docker/postgres_common_ground/base/5/pg_internal.init" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docker/postgres_common_ground/global/pg_control" beforeDir="false" afterPath="$PROJECT_DIR$/../docker/postgres_common_ground/global/pg_control" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docker/postgres_common_ground/global/pg_internal.init" beforeDir="false" afterPath="$PROJECT_DIR$/../docker/postgres_common_ground/global/pg_internal.init" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docker/postgres_common_ground/pg_subtrans/0000" beforeDir="false" afterPath="$PROJECT_DIR$/../docker/postgres_common_ground/pg_subtrans/0000" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docker/postgres_common_ground/pg_wal/000000010000000000000001" beforeDir="false" afterPath="$PROJECT_DIR$/../docker/postgres_common_ground/pg_wal/000000010000000000000001" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docker/postgres_common_ground/pg_xact/0000" beforeDir="false" afterPath="$PROJECT_DIR$/../docker/postgres_common_ground/pg_xact/0000" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docker/postgres_common_ground/postmaster.pid" beforeDir="false" afterPath="$PROJECT_DIR$/../docker/postgres_common_ground/postmaster.pid" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[DeviceId(pluginId=LocalEmulator, isTemplate=false, identifier=path=C:\Users\mnmr1\.android\avd\Medium_Phone_API_35.avd)]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="2rJTmDsNYJVeFpFM2mO42dPTjyY" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="prev.app.main" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
+      <option name="CLEAR_APP_STORAGE" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="RESTORE_ENABLED" value="false" />
+      <option name="RESTORE_FILE" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Hybrid>
+      <Java>
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Java>
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Java/Kotlin Method Sample (legacy)" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a00fca3b-b98e-4379-ac6e-cd256aa0d212" name="Changes" comment="" />
+      <created>1736276334594</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1736276334594</updated>
+    </task>
+    <servers />
+  </component>
+</project>
