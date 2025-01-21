@@ -45,6 +45,7 @@ class AuthenticationServiceImpl(
                 this.isTemporary = false
             }
 
+            this.credentials = listOf(credentialRepresentation)
 
 
             val birthday: String = formatLocalDateToString(newUser.birthday)
